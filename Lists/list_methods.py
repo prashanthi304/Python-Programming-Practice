@@ -1,0 +1,13 @@
+numbers = [30, 10, 20, 10, 40]
+numbers.reverse()
+print(numbers)
+numbers.sort()
+print(numbers)
+numbers.sort(reverse = True)
+print(numbers)
+count = numbers.count(10)
+print(count)
+index = numbers.index(10)
+print(index)
+numbers.clear()
+print(numbers)
